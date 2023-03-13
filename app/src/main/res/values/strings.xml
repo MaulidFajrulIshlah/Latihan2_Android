@@ -5,4 +5,5 @@
     <string name="button3">BUTTON3</string>
     <string name="button4">BUTTON4</string>
     <string name="linear_layout_without_weight">Linear Layout (Without Weight)</string>
+    <string name="output_of_linear">Output Of Linear</string>
 </resources>

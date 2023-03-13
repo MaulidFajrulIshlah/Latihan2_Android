@@ -7,11 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
+        android:id="@+id/linear2"
         android:paddingTop="220dp"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
     <TextView
         android:textSize="25sp"
         android:textStyle="bold"
@@ -20,12 +22,14 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+        <!-- kak jadi untuk button warna hijau ukurannya
+        segitu karna segitiga tanda seru kuning untuk yang
+        lainya saya biarkan begitu-->
     <Button
         android:text="@string/button1"
         android:textColor="@color/black"
         android:backgroundTint="@color/hijau"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:text="@string/button2"
@@ -48,7 +52,7 @@
     <TextView
         android:textSize="25sp"
         android:textStyle="bold"
-        android:text="Output Of Linear"
+        android:text="@string/output_of_linear"
         android:textColor="@color/hijau2"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
